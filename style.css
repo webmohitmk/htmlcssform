@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Lora';
+  src: url('assets/Lora/Lora-Italic-VariableFont_wght.ttf')
+   format('WOFF2');
+}
+
+
+/* body{
+  font-family: 'Lora', serif;
+  
+} */
+
+
+/* css comments  */
+
+/* <!-- --> */
+
+/* CSS selectors  */
+
+/* universal selector */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Element selector */
+/* h2 {
+  background: skyblue;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+} */
+
+/* class selector */
+.para {
+  color: red;
+  font-size: 20px;
+}
+/* ID selector */
+#container {
+  background: green;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  border: 5px solid magenta;  
+  /* shorthand propery border */
+  /* border-width: 10px;
+  border-style: groove;
+  border-color: aqua;
+  
+  border-top-color: blue;
+  border-right-style: double;
+  border-left-width: 20px; */
+
+  outline: 4px solid blue;
+  outline-offset: 10px;
+}
+
+
+.heading{
+    border: 1px solid;
+   /* text-align: center; */
+   /* background: #000; */
+   /* color: #fff; */
+   padding: 10px 20px 40px;
+   margin-top: 20px;
+   margin-top: 40px;
+  
+}
+
+#banner{
+    background: url(images/hathi.png);
+    height: 548px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#banner .overlay{
+    background: rgba(0,0,0, .5);
+    height: inherit;
+}
+
+/* Grouping selector */
+/* #banner h2, p{
+    color: #fff;
+}  */
+
+
+.social-media-icons{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.social-media-icons i{
+  border: 1px solid;
+  font-size: 32px;
+  padding: 20px;
+  border-radius: 10px 5px;
+}
+
+.fa-facebook{
+  background-color: blue;
+  color: #fff;
+}
+
+.display p{
+  display: inline;
+}
+
+form{
+  background: yellow;
+  display: inline;
+}
+form input{
+  display: block;
+  margin: 10px 0;
+}
+
+ul li{
+  display: inline-block;
+  background: purple;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.hover{
+  list-style-type: none;
+  text-align: center;
+}
+.hover a{
+  text-decoration: none;
+  color: #000;
+ 
+}
+
+.hover a:hover{
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  border-radius: 20px;
+
+}
